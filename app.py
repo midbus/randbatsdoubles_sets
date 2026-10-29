@@ -10,7 +10,7 @@ from streamlit_extras.badges import badge
 @st.cache_data
 def get_randbats_data():
     # Obtaining up-to-date data for application
-    url = 'https://pkmn.github.io/randbats/data/gen9randombattle.json'
+    url = 'https://pkmn.github.io/randbats/data/gen9randomdoublesbattle.json'
     data = requests.get(url).json()
     
     return data
